@@ -1,10 +1,5 @@
-passport-avalon
-===============
-
-Node.js passport connector for Avalon OAuth servers, based on [mjpearson](http://github.com/mjpearson)'s wordpress passport connector.
-
-
 # Passport-Avalon
+Node.js passport connector for Avalon OAuth servers, based on [mjpearson](http://github.com/mjpearson)'s wordpress passport connector.
 
 [Passport](https://github.com/jaredhanson/passport) strategy for authenticating
 with [Avalon Federated Login](http://avalonconsult.com/federated) using the OAuth 2.0 API.
