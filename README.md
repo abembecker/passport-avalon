@@ -21,7 +21,7 @@ accepts these credentials and calls `done` providing a user, as well as
         clientSecret: CLIENT_SECRET
       },
       function(accessToken, refreshToken, profile, done) {
-        User.findOrCreate({ WordpressId: profile.id }, function (err, user) {
+        User.findOrCreate({ AvalonId: profile.id }, function (err, user) {
           return done(err, user);
         });
       }
